@@ -1,0 +1,15 @@
+galleries:
+  - category: fotografia okolicznościowa
+    subcategories:
+      - name: śluby
+        flickr-photoset: 1234
+  - category: podróże
+    subcategories:
+      - name: boliwia
+        flickr-photoset: 456
+  - category: historie
+    subcategories:
+      - name: woodstock
+        flickr-photoset: 9348894
+      - name: rynsztok
+        flickr-photoset: 23123123

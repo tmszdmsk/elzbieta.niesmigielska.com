@@ -1,0 +1,111 @@
+<header class="niesmigielska">
+    <div class="logo">
+        <h1><a href="http://www.niesmigielska.com/"><span class="accent">nie</span>śmigielska.com</a>
+        </h1>
+        <h2><a href="http://www.niesmigielska.com/" class="second">słabe żarty · mocne
+                zdjęcia<span> </span></a></h2>
+    </div>
+    <div class="menu-slide"></div>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            var $slidingMenu = $("ul.menu").clone();
+            $("body").append($slidingMenu);
+            $("body").append('<div class="sliding-menu-close-layer"></div>')
+            $slidingMenu = $slidingMenu.wrap('<div class="sliding-menu"></div>');
+            var $wrapper = $slidingMenu.parent();
+            $wrapper.attr("aria-hidden", "true");
+            var allSubmenus = $slidingMenu.find("li.has-submenu");
+            allSubmenus.addClass("closed");
+            $slidingMenu.find("li.has-submenu > a").click(function () {
+                $(this).parent().toggleClass('closed');
+                return false;
+            });
+            var close = function(){
+                $wrapper.removeClass("open");
+                $("body").removeClass("no-scroll");
+                $("html").removeClass("no-scroll");
+                $(".sliding-menu-close-layer").css("display", "none");
+                return false;
+            }
+            var open = function(){
+                $wrapper.addClass("open");
+                $("body").addClass("no-scroll");
+                $("html").addClass("no-scroll");
+                $(".sliding-menu-close-layer").css("display", "block");
+                return false;
+            }
+            $(".sliding-menu-close-layer").on('click', close)
+            $(".menu-slide").on("click", open);
+        });
+    </script>
+    <ul class="menu">
+        <li class="has-submenu">
+            <a>Podróże</a>
+            <ul>
+                <li class="has-submenu"><a>Ameryka Północna</a>
+                    <ul>
+                        <li><a href="/category/usa">Roadtrip</a>
+                        </li><li><a href="/category/nowy-jork">Nowy Jork</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu"><a>Ameryka Południowa</a>
+                    <ul>
+                        <li><a href="/category/argentyna">Argentyna</a></li>
+                        <li><a href="/category/boliwia">Boliwia</a></li>
+                        <li><a href="/category/peru">Peru</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu"><a>Europa</a>
+                    <ul>
+                        <li><a href="/category/islandia">Islandia</a></li>
+                        <li><a href="/category/wlochy">Włochy</a></li>
+                        <li><a href="/category/norwegia">Norwegia</a></li>
+                        <li><a href="/category/szkocja">Szkocja</a></li>
+                        <li><a href="/category/malta">Malta</a></li>
+                        <li><a href="/category/grecja">Grecja</a></li>
+                        <li><a href="/category/francja">Francja</a></li>
+                        <li><a href="/category/portugalia">Portugalia</a></li>
+                        <li><a href="/category/madera">Madera</a></li>
+                        <li><a href="/category/wielka-brytania">Wielka Brytania</a></li>
+                        <li><a href="/category/holandia">Holandia</a></li>
+                        <li><a href="/category/niemcy">Niemcy</a></li>
+                        <li><a href="/category/wegry">Węgry</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu"><a>Azja</a>
+                    <ul>
+                        <li><a href="/category/indonezja">Indonezja</a></li>
+                        <li><a href="/category/gruzja">Gruzja</a></li>
+                        <li><a href="/category/izrael">Izrael</a></li>
+                        <li><a href="/category/turcja">Turcja</a></li>
+                        <li><a href="/category/sri-lanka">Sri Lanka</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu"><a>Afryka</a>
+                    <ul>
+                        <li><a href="/category/maroko">Maroko</a></li>
+                    </ul>
+                </li>
+                <li><a href="/category/polska">Polska</a></li>
+            </ul>
+        </li>
+        <li class="has-submenu">
+            <a>Inne</a>
+            <ul>
+                <li><a href="/category/co-u-ciebie">Co u Ciebie?</a></li>
+                <li><a href="/category/zycie">#Życie</a></li>
+                <li><a href="/category/analog">Analog</a></li>
+                <li><a href="/category/poznan">Poznań</a></li>
+                <li><a href="/category/urbex">Urbex</a></li>
+            </ul>
+        </li>
+        <!--<li><a href="http://elzbieta.niesmigielska.com">Portfolio</a></li>-->
+        <li><a href="/wspolpraca">Współpraca</a></li>
+        <li><a href="http://sklep.niesmigielska.com/">Sklep</a></li>
+        <li class="icon-only"><a href="http://facebook.com/niesmigielska"><i class="social-icon-facebook"></i></a></li>
+        <li class="icon-only"><a href="http://instagram.com/niesmigielska"><i class="social-icon-instagram"></i></a>
+        </li>
+        <li class="icon-only"><a href="mailto:smigielska.elzbieta@gmail.com"><i class="social-icon-email"></i></a></li>
+        <li class="icon-only"><a href="http://www.niesmigielska.com/feed"><i class="social-icon-rss"></i></a></li>
+    </ul>
+</header>
