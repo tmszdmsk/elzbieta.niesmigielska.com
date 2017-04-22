@@ -1,5 +1,50 @@
 <%- partial('_partial/head.ejs') %>
 <body>
 <%- partial('_partial/header.ejs') %>
+<div id="slideshow"
+     class="cycle-slideshow"
+     data-cycle-timeout="2000"
+     data-cycle-slides="> figure">
+    <figure data-id="33779595030"
+            style="background-image: url(https://farm3.staticflickr.com/2895/33779595030_ecc41b63f7_b.jpg)"></figure>
+</div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.js"></script>
+<script>
+    (function ($) {
+        var getPhotoset = function (photosetId) {
+            var s = "https://api.flickr.com/services/rest/";
+            return $.when($.getJSON(
+                s,
+                {
+                    method: "flickr.photosets.getPhotos",
+                    api_key: "<%- site.data.flickr.api_key %>",
+                    photoset_id: photosetId,
+                    user_id: "<%- site.data.flickr.user_id %>",
+                    format: "json",
+                    nojsoncallback: "1",
+                    extras: "original_format"
+                }
+            )).then(function (data) {
+                return data.photoset.photo.map(function (e) {
+                    return {
+                        id: e.id,
+                        url: "https://farm" + e.farm + ".staticflickr.com/" + e.server + "/" + e.id + "_" + e.secret + "_h.jpg"
+                    };
+                });
+            });
+        }
+
+        getPhotoset("<%- site.data.slideshow.flickr_photoset_id %>").then(function (images) {
+            var introId = $("div#slideshow figure").data('id');
+            images.forEach(function (image) {
+                if (image.id != introId) {
+                    var figure = $("<figure>");
+                    figure.css('background-image', "url(" + image.url + ")");
+                    $("div#slideshow").cycle('add', figure);
+                }
+            })
+        });
+    })(jQuery);
+</script>
 <%- partial('_partial/foot.ejs') %>
