@@ -1,7 +1,7 @@
 <header class="niesmigielska">
     <div class="logo">
-        <h1><a href="http://www.niesmigielska.com/">elżbieta.<span class="accent">nie</span>śmigielska.com</a></h1>
-        <h2><a href="http://www.niesmigielska.com/" class="second">fotografia okolicznościowa<span> </span></a></h2>
+        <h1><a href="<%= config.url %>">elżbieta.<span class="accent">nie</span>śmigielska.com</a></h1>
+        <h2><a href="<%= config.url %>" class="second">fotografia okolicznościowa<span> </span></a></h2>
     </div>
     <div class="menu-slide"></div>
     <!--<script type="text/javascript">-->
@@ -47,7 +47,7 @@
                 <% for(var j=0; j< gallery.subcategories.length; j++) {
                         var subcategory = gallery.subcategories[j];
                 %>
-                <li><a href="#"><%= subcategory.name %></a></li>
+                <li><a href="<%= subcategory.url %>"><%= subcategory.name %></a></li>
                 <% }%>
             </ul>
         </li>
