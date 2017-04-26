@@ -4,38 +4,38 @@
         <h2><a href="<%= config.url %>" class="second">fotografia okolicznościowa<span> </span></a></h2>
     </div>
     <div class="menu-slide"></div>
-    <!--<script type="text/javascript">-->
-        <!--jQuery(document).ready(function ($) {-->
-            <!--var $slidingMenu = $("ul.menu").clone();-->
-            <!--$("body").append($slidingMenu);-->
-            <!--$("body").append('<div class="sliding-menu-close-layer"></div>')-->
-            <!--$slidingMenu = $slidingMenu.wrap('<div class="sliding-menu"></div>');-->
-            <!--var $wrapper = $slidingMenu.parent();-->
-            <!--$wrapper.attr("aria-hidden", "true");-->
-            <!--var allSubmenus = $slidingMenu.find("li.has-submenu");-->
-            <!--allSubmenus.addClass("closed");-->
-            <!--$slidingMenu.find("li.has-submenu > a").click(function () {-->
-                <!--$(this).parent().toggleClass('closed');-->
-                <!--return false;-->
-            <!--});-->
-            <!--var close = function(){-->
-                <!--$wrapper.removeClass("open");-->
-                <!--$("body").removeClass("no-scroll");-->
-                <!--$("html").removeClass("no-scroll");-->
-                <!--$(".sliding-menu-close-layer").css("display", "none");-->
-                <!--return false;-->
-            <!--}-->
-            <!--var open = function(){-->
-                <!--$wrapper.addClass("open");-->
-                <!--$("body").addClass("no-scroll");-->
-                <!--$("html").addClass("no-scroll");-->
-                <!--$(".sliding-menu-close-layer").css("display", "block");-->
-                <!--return false;-->
-            <!--}-->
-            <!--$(".sliding-menu-close-layer").on('click', close)-->
-            <!--$(".menu-slide").on("click", open);-->
-        <!--});-->
-    <!--</script>-->
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            var $slidingMenu = $("ul.menu").clone();
+            $("body").append($slidingMenu);
+            $("body").append('<div class="sliding-menu-close-layer"></div>')
+            $slidingMenu = $slidingMenu.wrap('<div class="sliding-menu"></div>');
+            var $wrapper = $slidingMenu.parent();
+            $wrapper.attr("aria-hidden", "true");
+            var allSubmenus = $slidingMenu.find("li.has-submenu");
+            allSubmenus.addClass("closed");
+            $slidingMenu.find("li.has-submenu > a").click(function () {
+                $(this).parent().toggleClass('closed');
+                return false;
+            });
+            var close = function(){
+                $wrapper.removeClass("open");
+                $("body").removeClass("no-scroll");
+                $("html").removeClass("no-scroll");
+                $(".sliding-menu-close-layer").css("display", "none");
+                return false;
+            }
+            var open = function(){
+                $wrapper.addClass("open");
+                $("body").addClass("no-scroll");
+                $("html").addClass("no-scroll");
+                $(".sliding-menu-close-layer").css("display", "block");
+                return false;
+            }
+            $(".sliding-menu-close-layer").on('click', close)
+            $(".menu-slide").on("click", open);
+        });
+    </script>
     <ul class="menu">
     <% for(var i=0; i<site.data.galleries.galleries.length;i++) {
             var gallery = site.data.galleries.galleries[i];
