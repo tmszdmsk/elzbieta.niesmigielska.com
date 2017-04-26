@@ -40,32 +40,35 @@
         flex-shrink: 0;
         height: calc(100vh - 90px);
     }
+
     .swiper-wrapper {
         height: 100%;
         margin-left: auto;
         margin-right: auto;
         display: flex;
-        flex-direction:row;
+        flex-direction: row;
         flex-wrap: nowrap;
         overflow-x: visible;
         overflow-y: hidden;
     }
 
     .swiper-slide {
-        margin: 0 20px;
+        margin: 0 1vw;
     }
+
     .swiper-slide.intro-slide {
         background-color: #fafafa;
         padding: 20px;
         width: 50vw;
         flex-shrink: 0;
-        align-self:stretch;
+        align-self: stretch;
     }
 
     .intro-slide {
         font-size: 20px;
         font-weight: 300;
     }
+
     .intro-slide h1 {
         font-size: 2em;
         font-weight: 400;
@@ -79,12 +82,14 @@
         position: relative;
     }
 
-    .swiper-slide img{
+    .swiper-slide img {
         max-height: calc(100vh - 90px);
         max-width: 100%;
     }
 
 </style>
+<%- partial('_partial/foot.ejs') %>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
 <script>
     (function ($) {
         var getPhotoset = function (photosetId) {
@@ -119,7 +124,11 @@
                 slides.append(div);
             });
         });
+
+        $(".swiper-wrapper").mousewheel(function (evt, chg) {
+            this.scrollLeft -= (chg * 2); //need a value to speed up the change
+            evt.preventDefault();
+        });
     })(jQuery);
 
 </script>
-<%- partial('_partial/foot.ejs') %>
