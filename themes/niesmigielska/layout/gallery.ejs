@@ -7,7 +7,7 @@
     <div id="flexbox-b">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="intro-slide swiper-slide" style="width: 400px">
+                <div class="intro-slide swiper-slide">
                     <%- page.content %>
                 </div>
             </div>
@@ -16,9 +16,12 @@
 </div>
 <style>
 
+    .intro-slide p {
+        padding: 10px 0;
+    }
     @media screen and (max-width: 1060px) {
         .intro-slide {
-            font-size: 20px;
+            font-size: 14px;
             font-weight: 300;
             padding: 20px;
         }
@@ -28,8 +31,11 @@
             font-weight: 400;
         }
 
-        #flexbox img{
+        #flexbox {
             width: 100%;
+        }
+        #flexbox img{
+            width: 100vw;
         }
 
     }
@@ -78,13 +84,13 @@
         .swiper-slide.intro-slide {
             background-color: #fafafa;
             padding: 20px;
-            width: 50vw;
+            width: 20vw;
             flex-shrink: 0;
             align-self: stretch;
         }
 
         .intro-slide {
-            font-size: 20px;
+            font-size: 14px;
             font-weight: 300;
         }
 
@@ -146,8 +152,8 @@
         });
 
         $(".swiper-wrapper").mousewheel(function (evt, chg) {
-            if(window.innerWidth>=960) {
-                this.scrollLeft -= (chg * 2); //need a value to speed up the change
+            if(window.innerWidth>=1060) {
+                this.scrollLeft -= (evt.deltaY * evt.deltaFactor * 2); //need a value to speed up the change
                 evt.preventDefault();
             }
         });

@@ -1,27 +1,27 @@
 galleries:
-  - category: ślubne
+  - category: Ślubne
     url: /slubne
-  - category: rodzinne
+  - category: Rodzinne
     url: /ciazowe-rodzinne-narzeczenskie
-  - category: okolicznościowe
+  - category: Okolicznościowe
     url: /okolicznosciowe
-  - category: podróże
+  - category: Podróże
     subcategories:
-      - name: gruzja
+      - name: Gruzja
         url: /gruzja
-      - name: izrael
+      - name: Izrael
         url: /izrael
-      - name: japonia
+      - name: Japonia
         url: /izrael
-      - name: bolowia
+      - name: Boliwia
         url: /boliwia
-  - category: wydarzenia
+  - category: Wydarzenia
     subcategories:
-      - name: karnawał w Potosi
+      - name: Karnawał w Potosi
         url: /karnawal-w-potosi
       - name: Woodstock
         url: /woodstock
-      - name: czarny poniedziałek
+      - name: Czarny poniedziałek
         url: /czarny-poniedzialek
-      - name: marsz rowności w Poznaniu
+      - name: Marsz rowności w Poznaniu
         url: /marsz-rownosci-poznan

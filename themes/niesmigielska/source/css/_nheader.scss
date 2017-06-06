@@ -64,6 +64,10 @@ header.niesmigielska > div.logo a {
 
 @media screen and (max-width: 1060px) {
 
+  header.niesmigielska > div.logo {
+    font-size: 24px;
+  }
+
   header.niesmigielska {
     justify-content: space-between;
   }
@@ -226,7 +230,7 @@ header.niesmigielska > div.logo a {
     display: block;
     height: 50px;
     line-height: 50px;
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
     white-space: nowrap;
     padding: 0 .4em;

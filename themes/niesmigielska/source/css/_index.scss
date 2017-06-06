@@ -20,6 +20,14 @@ div#slideshow figure {
     max-height: 100%;
 }
 
-#index header.niesmigielska a{
+#index header.niesmigielska a,
+#index header.niesmigielska li.icon-only a i::before,
+#index header.niesmigielska .menu-slide i::before{
     color: #fff !important;
 }
+
+#index #header-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.3);
+}
+

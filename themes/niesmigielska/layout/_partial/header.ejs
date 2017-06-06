@@ -1,64 +1,69 @@
-<header class="niesmigielska">
-    <div class="logo">
-        <h1><a href="<%= config.url %>">elżbieta.<span class="accent">nie</span>śmigielska.com</a></h1>
-        <h2><a href="<%= config.url %>" class="second">fotografia okolicznościowa<span> </span></a></h2>
-    </div>
-    <div class="menu-slide"></div>
-    <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            var $slidingMenu = $("ul.menu").clone();
-            $("body").append($slidingMenu);
-            $("body").append('<div class="sliding-menu-close-layer"></div>')
-            $slidingMenu = $slidingMenu.wrap('<div class="sliding-menu"></div>');
-            var $wrapper = $slidingMenu.parent();
-            $wrapper.attr("aria-hidden", "true");
-            var allSubmenus = $slidingMenu.find("li.has-submenu");
-            allSubmenus.addClass("closed");
-            $slidingMenu.find("li.has-submenu > a").click(function () {
-                $(this).parent().toggleClass('closed');
-                return false;
+<div id="header-container">
+    <header class="niesmigielska">
+        <div class="logo">
+            <h1><a href="<%= config.url %>">elżbieta.<span class="accent">nie</span>śmigielska.com</a></h1>
+            <h2><a href="<%= config.url %>" class="second">fotografia okolicznościowa<span> </span></a></h2>
+        </div>
+        <div class="menu-slide"><i class="icon-menu"></i></div>
+        <script type="text/javascript">
+            jQuery(document).ready(function ($) {
+                var $slidingMenu = $("ul.menu").clone();
+                $("body").append($slidingMenu);
+                $("body").append('<div class="sliding-menu-close-layer"></div>')
+                $slidingMenu = $slidingMenu.wrap('<div class="sliding-menu"></div>');
+                var $wrapper = $slidingMenu.parent();
+                $wrapper.attr("aria-hidden", "true");
+                var allSubmenus = $slidingMenu.find("li.has-submenu");
+                allSubmenus.addClass("closed");
+                $slidingMenu.find("li.has-submenu > a").click(function () {
+                    $(this).parent().toggleClass('closed');
+                    return false;
+                });
+                var close = function () {
+                    $wrapper.removeClass("open");
+                    $("body").removeClass("no-scroll");
+                    $("html").removeClass("no-scroll");
+                    $(".sliding-menu-close-layer").css("display", "none");
+                    return false;
+                }
+                var open = function () {
+                    $wrapper.addClass("open");
+                    $("body").addClass("no-scroll");
+                    $("html").addClass("no-scroll");
+                    $(".sliding-menu-close-layer").css("display", "block");
+                    return false;
+                }
+                $(".sliding-menu-close-layer").on('click', close)
+                $(".menu-slide").on("click", open);
             });
-            var close = function(){
-                $wrapper.removeClass("open");
-                $("body").removeClass("no-scroll");
-                $("html").removeClass("no-scroll");
-                $(".sliding-menu-close-layer").css("display", "none");
-                return false;
-            }
-            var open = function(){
-                $wrapper.addClass("open");
-                $("body").addClass("no-scroll");
-                $("html").addClass("no-scroll");
-                $(".sliding-menu-close-layer").css("display", "block");
-                return false;
-            }
-            $(".sliding-menu-close-layer").on('click', close)
-            $(".menu-slide").on("click", open);
-        });
-    </script>
-    <ul class="menu">
-    <% for(var i=0; i<site.data.galleries.galleries.length;i++) {
-            var gallery = site.data.galleries.galleries[i];
-    %>
-        <% if(gallery.subcategories) { %>
-        <li class="has-submenu">
-            <a><%= gallery.category %></a>
-            <ul>
-                <% for(var j=0; j< gallery.subcategories.length; j++) {
+        </script>
+        <ul class="menu">
+            <% for(var i = 0; i < site.data.galleries.galleries.length;i++) {
+                var gallery = site.data.galleries.galleries[i];
+            %>
+            <% if(gallery.subcategories) { %>
+            <li class="has-submenu">
+                <a><%= gallery.category %></a>
+                <ul>
+                    <% for(var j = 0; j < gallery.subcategories.length; j++) {
                         var subcategory = gallery.subcategories[j];
-                %>
-                <li><a href="<%= subcategory.url %>"><%= subcategory.name %></a></li>
-                <% }%>
-            </ul>
-        </li>
-        <% } else { %>
-        <li><a href="<%= gallery.url %>"><%= gallery.category %></a></li>
-        <% } %>
-    <% } %>
-        <li><a href="/oferta">oferta</a></li>
-        <li><a href="http://www.niesmigielska.com/">blog</a></li>
-        <li class="icon-only"><a href="http://facebook.com/niesmigielska"><i class="social-icon-facebook"></i></a></li>
-        <li class="icon-only"><a href="https://www.instagram.com/niesmigielska/"><i class="social-icon-instagram"></i></a></li>
-        <li class="icon-only"><a href="mailto:smigielska.elzbieta@gmail.com"><i class="social-icon-email"></i></a></li>
-    </ul>
-</header>
+                    %>
+                    <li><a href="<%= subcategory.url %>"><%= subcategory.name %></a></li>
+                    <% } %>
+                </ul>
+            </li>
+            <% } else { %>
+            <li><a href="<%= gallery.url %>"><%= gallery.category %></a></li>
+            <% } %>
+            <% } %>
+            <li><a href="/oferta">Oferta</a></li>
+            <li><a href="http://www.niesmigielska.com/">Blog</a></li>
+            <li class="icon-only"><a href="http://facebook.com/niesmigielska"><i class="social-icon-facebook"></i></a>
+            </li>
+            <li class="icon-only"><a href="https://www.instagram.com/niesmigielska/"><i
+                            class="social-icon-instagram"></i></a></li>
+            <li class="icon-only"><a href="mailto:smigielska.elzbieta@gmail.com"><i class="social-icon-email"></i></a>
+            </li>
+        </ul>
+    </header>
+</div>
