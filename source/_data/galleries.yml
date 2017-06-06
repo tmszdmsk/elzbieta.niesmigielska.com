@@ -1,15 +1,27 @@
 galleries:
-  - category: fotografia okolicznościowa
-    subcategories:
-      - name: śluby
-        url: /sluby
+  - category: ślubne
+    url: /slubne
+  - category: ciążowe, rodzinne, narzeczeńskie
+    url: /ciazowe-rodzinne-narzeczenskie
+  - category: okolicznościowe
+    url: /okolicznosciowe
   - category: podróże
     subcategories:
-      - name: boliwia
+      - name: gruzja
+        url: /gruzja
+      - name: izrael
+        url: /izrael
+      - name: japonia
+        url: /izrael
+      - name: bolowia
         url: /boliwia
-  - category: historie
+  - category: wydarzenia
     subcategories:
-      - name: woodstock
+      - name: karnawał w Potosi
+        url: /karnawal-w-potosi
+      - name: Woodstock
         url: /woodstock
-      - name: rynsztok
-        url: /woodstock
+      - name: czarny poniedziałek
+        url: /czarny-poniedzialek
+      - name: marsz rowności w Poznaniu
+        url: /marsz-rownosci-poznan

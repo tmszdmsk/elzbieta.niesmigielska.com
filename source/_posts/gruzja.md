@@ -1,6 +1,6 @@
 ---
-title: Boliwia
+title: Gruzja
 layout: gallery
 flickr_photoset_id: "72157684611838336"
 ---
-Krótki opis dla Boliwii!
+Krótki opis dla ślubów!

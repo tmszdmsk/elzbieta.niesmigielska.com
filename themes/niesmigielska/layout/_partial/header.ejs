@@ -52,11 +52,11 @@
             </ul>
         </li>
         <% } else { %>
-        <li><a><%= gallery.category %></a></li>
+        <li><a href="<%= gallery.url %>"><%= gallery.category %></a></li>
         <% } %>
     <% } %>
-        <li><a>o mnie</a></li>
-        <li><a>oferta</a></li>
-        <li><a>blog</a></li>
+        <li><a href="/about">o mnie</a></li>
+        <li><a href="/oferta">oferta</a></li>
+        <li><a href="http://www.niesmigielska.com/">blog</a></li>
     </ul>
 </header>

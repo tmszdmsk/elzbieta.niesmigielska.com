@@ -1,0 +1,16 @@
+<%- partial('_partial/head.ejs') %>
+<body id="gallery">
+<div id="flexbox">
+    <div id="flexbox-a">
+        <%- partial('_partial/header.ejs') %>
+    </div>
+    <div id="flexbox-b">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="intro-slide swiper-slide" style="width: 400px">
+                    <%- page.content %>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
