@@ -15,76 +15,96 @@
     </div>
 </div>
 <style>
-    html, body {
-        height: 100%;
-    }
 
-    #flexbox {
-        width: 100%;
-        height: 100vh;
-        max-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
-    }
+    @media screen and (max-width: 1060px) {
+        .intro-slide {
+            font-size: 20px;
+            font-weight: 300;
+            padding: 20px;
+        }
 
-    #flexbox-a {
-        flex-grow: 0;
-    }
+        .intro-slide h1 {
+            font-size: 2em;
+            font-weight: 400;
+        }
 
-    #flexbox-b {
-        flex-grow: 1;
-    }
+        #flexbox img{
+            width: 100%;
+        }
 
-    .swiper-container {
-        flex-shrink: 0;
-        height: calc(100vh - 90px);
     }
+    @media screen and (min-width: 1060px) {
+        html, body {
+            height: 100%;
+        }
 
-    .swiper-wrapper {
-        height: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        overflow-x: visible;
-        overflow-y: hidden;
-    }
+        #flexbox {
+            width: 100%;
+            height: 100vh;
+            max-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
 
-    .swiper-slide {
-        margin: 0 1vw;
-    }
+        #flexbox-a {
+            flex-grow: 0;
+        }
 
-    .swiper-slide.intro-slide {
-        background-color: #fafafa;
-        padding: 20px;
-        width: 50vw;
-        flex-shrink: 0;
-        align-self: stretch;
-    }
+        #flexbox-b {
+            flex-grow: 1;
+        }
 
-    .intro-slide {
-        font-size: 20px;
-        font-weight: 300;
-    }
+        .swiper-container {
+            flex-shrink: 0;
+            height: calc(100vh - 90px);
+        }
 
-    .intro-slide h1 {
-        font-size: 2em;
-        font-weight: 400;
-    }
+        .swiper-wrapper {
+            height: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            overflow-x: visible;
+            overflow-y: hidden;
+        }
 
-    .swiper-slide {
-        max-height: calc(100vh - 90px);
-        align-self: center;
-        max-width: 100vw;
-        flex-shrink: 0;
-        position: relative;
-    }
+        .swiper-slide {
+            margin: 0 1vw;
+        }
 
-    .swiper-slide img {
-        max-height: calc(100vh - 90px);
-        max-width: 100%;
+        .swiper-slide.intro-slide {
+            background-color: #fafafa;
+            padding: 20px;
+            width: 50vw;
+            flex-shrink: 0;
+            align-self: stretch;
+        }
+
+        .intro-slide {
+            font-size: 20px;
+            font-weight: 300;
+        }
+
+        .intro-slide h1 {
+            font-size: 2em;
+            font-weight: 400;
+        }
+
+        .swiper-slide {
+            max-height: calc(100vh - 90px);
+            align-self: center;
+            max-width: 100vw;
+            flex-shrink: 0;
+            position: relative;
+        }
+
+        .swiper-slide img {
+            max-height: calc(100vh - 90px);
+            max-width: 100%;
+        }
     }
 
 </style>
@@ -126,8 +146,10 @@
         });
 
         $(".swiper-wrapper").mousewheel(function (evt, chg) {
-            this.scrollLeft -= (chg * 2); //need a value to speed up the change
-            evt.preventDefault();
+            if(window.innerWidth>=960) {
+                this.scrollLeft -= (chg * 2); //need a value to speed up the change
+                evt.preventDefault();
+            }
         });
     })(jQuery);
 
