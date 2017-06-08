@@ -1,0 +1,40 @@
+<%- partial('_partial/head.ejs') %>
+
+<body id="content">
+<style>
+    body#content .wrapper {
+        width: 960px;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    body#content .wrapped {
+        padding: 10px 10px;
+        font-size: 18px;
+    }
+    body#content .wrapped h1 {
+        font-size: 2em;
+    }
+    body#content .wrapped p {
+        padding-top: 20px;
+    }
+    body#content .wrapped ul {
+        list-style-position: inside;
+    }
+    body#content .wrapped li {
+        list-style-type: circle;
+    }
+    body#content .wrapped .footer{
+        font-size: 0.7em;
+        color: #3e3e3e;
+    }
+
+</style>
+<%- partial('_partial/header.ejs') %>
+<div class="wrapper">
+    <div class="wrapped">
+        <%- page.content %>
+    </div>
+</div>
+</body>
+<%- partial('_partial/foot.ejs') %>

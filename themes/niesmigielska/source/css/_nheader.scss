@@ -278,6 +278,7 @@ header.niesmigielska > div.logo a {
     height: 0;
     transition: opacity 0.3s ease-in, visibility 0s linear 0.3s;
     visibility: hidden;
+    min-width: 100px;
   }
 
   header.niesmigielska ul.menu > li:hover > ul {

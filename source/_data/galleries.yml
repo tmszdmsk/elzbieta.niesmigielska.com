@@ -11,10 +11,6 @@ galleries:
         url: /gruzja
       - name: Izrael
         url: /izrael
-      - name: Japonia
-        url: /izrael
-      - name: Boliwia
-        url: /boliwia
   - category: Wydarzenia
     subcategories:
       - name: Karnawał w Potosi
