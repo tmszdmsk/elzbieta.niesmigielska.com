@@ -9,4 +9,4 @@ Niby Warszawa różni się od Krakowa, ale nie tak jak Tel Aviv od Jerozolimy. W
 Plus, nagle wszędzie można kupić jarmułki. W kolorach rasta, z Pacmanem, logiem Sprite’a, Borussi Dortmund itd.
 
 
-Zapraszam na relacje z podróży do Izraela: od napiętej atmosfery w Jerozolimie i muru pomiędzy Palestyną i Izraelem, przez wyluzowany Tel Aviv do road tripu po pustyni Negev i luksusowych hoteli nad Morzem Martwym. Religijne uniesienia i napięta atmosfera polityczna. Mur między Palestyną a izraelem i murale w Tel Avivie. Przepiękne widoki i drapacze chmur. A pomiędzy tym wszystkim, zagubiony turysta z aparatem. 
+Zapraszam na relację z podróży: od napiętej atmosfery w Jerozolimie, przez wyluzowany Tel Aviv do road tripu po pustyni Negev i luksusowych hoteli nad Morzem Martwym. Religijne uniesienia i napięta atmosfera polityczna. Mur między Palestyną a Izraelem i murale w Tel Avivie. Przepiękne widoki i drapacze chmur. A pomiędzy tym wszystkim, zagubiony turysta z aparatem. 
