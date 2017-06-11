@@ -36,15 +36,3 @@ W mailu proszę podać:
  
  
 Będziemy o jedną wiadomość bliżej porozumienia. 
- 
-<div class="footer">
-\-\- 
-Ela Adamska, ur. 1989, Poznań.
-
-Lubię suche żarty, drożdżówki i historie opowiedziane zdjęciami.
-
-Zdjęcia robię od ponad 10 lat - wystarczająco długo, żeby wiedzieć, że w fotografii najbardziej interesuje mnie reportaż i dokument.   
-
-Całkiem dobrze radzę sobie też z literami. 
-Od 4 lat prowadzę blog podróżniczo-fotograficzny: [niesmigielska.com](http://www.niesmigielska.com)
-</div>
