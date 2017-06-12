@@ -20,11 +20,12 @@ Sprzedaję również wydruki swoich zdjęć: [klik](http://sklep.niesmigielska.c
  
  
 Mam wolne terminy na ślub w 2017 roku, przyjmuję zapisy na rok 2018. 
-Poza tym na bieżąco możemy się umówić na sesję rodzinną, dziecięcą, narzeczeńską, relację z chrzcin, komunii itp. Może masz własny pomysł na zdjęcia? [Napisz do mnie.](mailto:smigielska.elzbieta@gmail.com)
+Poza tym na bieżąco możemy się umówić na sesję rodzinną, dziecięcą, narzeczeńską, relację z chrzcin, komunii itp. 
+Może masz własny pomysł na zdjęcia? [Napisz do mnie.](mailto:smigielska.elzbieta@gmail.com)
  
  
 Cenę pakietu ślubnego / sesji ustalamy indywidualnie (kiedy, gdzie, ile godzin na miejscu, odbitki / fotoksiążka / postać elektroniczna), dlatego zainteresowanych proszę o kontakt mailowy: 
-Ceny sesji indywidualnych zaczynają się od 500 zł / zdjęć ślubnych od 2700 zł (ceny obowiązują na rok 2017). 
+Ceny sesji indywidualnych zaczynają się od 400 zł / zdjęć ślubnych od 2700 zł (ceny obowiązują na rok 2017. Na rok 2018  wynoszą odpowiednio od 500 i 3200 zł). 
 
 
 <p><center>**[smigielska.elzbieta@gmail.com](mailto:smigielska.elzbieta@gmail.com)**</center></p>
