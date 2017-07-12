@@ -13,7 +13,7 @@ Chętnie wykonam dla Państwa:
 - Sesję narzeczeńską
 - Relację z podróży
 - Inne (jakie?)
-Zajmuję się także obsługą eventów. 
+Zajmuję się także fotograficzną obsługą eventów. 
  
  
 Sprzedaję również wydruki swoich zdjęć: [klik](http://sklep.niesmigielska.com).   
@@ -25,7 +25,7 @@ Może masz własny pomysł na zdjęcia? [Napisz do mnie.](mailto:smigielska.elzb
  
  
 Cenę pakietu ślubnego / sesji ustalamy indywidualnie (kiedy, gdzie, ile godzin na miejscu, odbitki / fotoksiążka / postać elektroniczna), dlatego zainteresowanych proszę o kontakt mailowy: 
-Ceny sesji indywidualnych zaczynają się od 400 zł / zdjęć ślubnych od 2700 zł (ceny obowiązują na rok 2017. Na rok 2018  wynoszą odpowiednio od 500 i 3200 zł). 
+Ceny sesji indywidualnych zaczynają się od 500 zł / zdjęć ślubnych od 3000 zł (ceny obowiązują na rok 2017. Na rok 2018  wynoszą odpowiednio od 600 i 3500 zł). 
 
 
 <p><center>**[smigielska.elzbieta@gmail.com](mailto:smigielska.elzbieta@gmail.com)**</center></p>
