@@ -11,7 +11,7 @@ galleries:
         url: /gruzja
       - name: Izrael
         url: /izrael
-  - category: Wydarzenia
+  - category: Reportaż
     subcategories:
       - name: Karnawał w Potosi
         url: /karnawal-w-potosi
