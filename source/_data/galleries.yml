@@ -15,11 +15,10 @@ galleries:
     subcategories:
       - name: Karnawał w Potosi
         url: /karnawal-w-potosi
-      - name: Woodstock
+      - name: Stary człowiek i Woodstock (2016)
         url: /woodstock
       - name: Czarny poniedziałek
         url: /czarny-poniedzialek
       - name: Marsz rowności w Poznaniu
         url: /marsz-rownosci-poznan
-      - name: Puchar piłki nożnej archiwistów
-        url: /arch-futbol
+     
