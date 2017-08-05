@@ -13,6 +13,7 @@ Chętnie wykonam dla Państwa:
 - Sesję narzeczeńską
 - Relację z podróży
 - Inne (jakie?)
+
 Zajmuję się także fotograficzną obsługą eventów. 
  
  
