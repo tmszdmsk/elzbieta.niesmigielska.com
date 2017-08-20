@@ -4,9 +4,8 @@ layout: gallery
 flickr_photoset_id: "72157684547508271"
 ---
 Dwie rzeczy sobie obiecałam po ostatnim Woodstocku:
-
-– że następnym razem przyjadę w kombinezonie pikachu.
-– że nie skorzystam na miejscu z toi toia.
+* że następnym razem przyjadę w kombinezonie pikachu.
+* że nie skorzystam na miejscu z toi toia.
 
 I dwa razy nie dotrzymałam słowa.
 
