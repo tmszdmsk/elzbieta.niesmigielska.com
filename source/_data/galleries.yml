@@ -7,14 +7,20 @@ galleries:
     url: /okolicznosciowe
   - category: Podróże
     subcategories:
+      - name: Japonia
+        url: /tokio
       - name: Gruzja
         url: /gruzja
       - name: Izrael
         url: /izrael
   - category: Reportaż
     subcategories:
+      - name: Disneyland: fun kontrolowany
+        url: /disneyland
       - name: Karnawał w Potosi
         url: /karnawal-w-potosi
+      - name: Stary człowiek i Woodstock (2017)
+        url: /woodstock2017
       - name: Stary człowiek i Woodstock (2016)
         url: /woodstock
       - name: Czarny poniedziałek
