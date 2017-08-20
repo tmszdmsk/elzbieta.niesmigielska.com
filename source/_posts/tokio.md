@@ -1,5 +1,5 @@
 ---
-title: "Japonia: wystający gwóźdź zostanie uderzony jako pierwszy"
+title: "Japonia"
 layout: gallery
 flickr_photoset_id: "72157685287820304"
 ---
