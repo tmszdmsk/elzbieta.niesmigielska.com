@@ -15,7 +15,7 @@ galleries:
         url: /izrael
   - category: Reportaż
     subcategories:
-      - name: Disneyland: fun kontrolowany
+      - name: "Disneyland: fun kontrolowany"
         url: /disneyland
       - name: Karnawał w Potosi
         url: /karnawal-w-potosi
