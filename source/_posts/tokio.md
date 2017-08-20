@@ -3,7 +3,7 @@ title: "Japonia: wystający gwóźdź zostanie uderzony jako pierwszy"
 layout: gallery
 flickr_photoset_id: "72157685287820304"
 ---
-Jest takie japońskie przysłowie: wystający gwóźdź zostanie uderzony jako pierwszy. 
+Jest takie japońskie przysłowie: *wystający gwóźdź zostanie uderzony jako pierwszy*. 
 
 Japończyk nigdy nie rzuci papierka na ulicę. Nie będzie pchał się w kolejce. 
 Zawsze ma wyciszony telefon w metrze.
