@@ -10,6 +10,8 @@ Ela Adamska, ur. 1989, mieszkam w Poznaniu i specjalnie zrobiłam prawo jazdy, �
 
 Zdjęcia robię od ponad 10 lat - wystarczająco długo, żeby wiedzieć, że w fotografii najbardziej interesuje mnie reportaż i dokument. Moje zainteresowania przekładają się na moje zdjęcia - wychodzę z założenia, że im więcej emocji, a mniej udziału fotografa, tym lepiej. Czasem każę Wam stanąć w dobrym świetle i spojrzeć sobie czule w oczy. Ale najczęściej będę po prostu cichym świadkiem pięknych chwil. 
 
+PS: ja też źle się czuję po drugiej stronie aparatu :)
+
 
 Całkiem dobrze radzę sobie też z literami. 
 Od 4 lat prowadzę blog podróżniczo-fotograficzny: [niesmigielska.com](http://www.niesmigielska.com)
