@@ -25,7 +25,7 @@ Dokładną cenę sesji ustalamy indywidualnie, dlatego zainteresowanych proszę 
 <p><center>**[smigielska.elzbieta@gmail.com](mailto:smigielska.elzbieta@gmail.com)**</center></p>
  
  W mailu proszę podać:
-- o jaką sesję chodzi
+- o jaką sesję chodzi (zdjęcia ślubne, ciążowe, rodzinne etc.)
 - miejsce i przybliżony termin zdjęć
  
  Będziemy o jedną wiadomość bliżej porozumienia. 
