@@ -15,6 +15,8 @@ galleries:
         url: /izrael
   - category: Reportaż
     subcategories:
+      - name: Urzędnik też człowiek
+        url: /urzednik
       - name: "Disneyland: fun kontrolowany"
         url: /disneyland
       - name: Karnawał w Potosi
