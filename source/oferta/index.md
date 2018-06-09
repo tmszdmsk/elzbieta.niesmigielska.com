@@ -15,7 +15,7 @@ Chętnie wykonam dla Państwa:
 
 Zajmuję się także fotograficzną obsługą eventów. 
  
-Mam jeszcze wolne terminy na ślub w 2017 roku. Przyjmuję zapisy na rok 2018 (do września). 
+Mam jeszcze wolne terminy na ślub w 2018 roku.
 Poza tym na bieżąco możemy się umówić na sesję rodzinną, dziecięcą, narzeczeńską, relację z chrzcin, komunii itp. 
 Może masz własny pomysł na zdjęcia? [Napisz do mnie.](mailto:smigielska.elzbieta@gmail.com)
  
